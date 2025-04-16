@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.12.6 on win32)" generated="2025-03-25T16:34:01.214067" rpa="false" schemaversion="5">
+<suite id="s1" name="Dotcom" source="C:\Users\shravan.v\PycharmProjects\pythonProject1\Dotcom.robot">
+<test id="s1-t1" name="Test Navigation" line="10">
+<kw name="Open Browser" owner="DotComRobot">
+<msg time="2025-03-25T16:34:17.840877" level="INFO">Link is working</msg>
+<arg>${BROWSER_PATH}</arg>
+<arg>${BASE_URL}</arg>
+<status status="PASS" start="2025-03-25T16:34:02.130234" elapsed="15.711584"/>
+</kw>
+<kw name="Main Nav" owner="DotComRobot">
+<msg time="2025-03-25T16:34:56.674048" level="INFO">Services Selected!!!
+Success Stories Selected!!!
+Insights Selected!!!
+About us Selected!!!
+Contact Us Selected!!!
+Search Selected!!!</msg>
+<status status="PASS" start="2025-03-25T16:34:17.843954" elapsed="38.830094"/>
+</kw>
+<kw name="Close Browser" owner="DotComRobot">
+<status status="PASS" start="2025-03-25T16:34:56.676193" elapsed="2.566753"/>
+</kw>
+<doc>To Verify navigation tabs work as expected.</doc>
+<status status="PASS" start="2025-03-25T16:34:02.130234" elapsed="57.112712"/>
+</test>
+<test id="s1-t2" name="Test Services Tab" line="16">
+<kw name="Open Browser" owner="DotComRobot">
+<msg time="2025-03-25T16:35:16.411350" level="INFO">Link is working</msg>
+<arg>${BROWSER_PATH}</arg>
+<arg>${BASE_URL}</arg>
+<status status="PASS" start="2025-03-25T16:34:59.244998" elapsed="17.166352"/>
+</kw>
+<kw name="Service Tab">
+<msg time="2025-03-25T16:35:16.411350" level="FAIL">No keyword with name 'Service Tab' found. Did you mean:
+    DotComRobot.Test Service Tab</msg>
+<status status="FAIL" start="2025-03-25T16:35:16.411350" elapsed="0.000000">No keyword with name 'Service Tab' found. Did you mean:
+    DotComRobot.Test Service Tab</status>
+</kw>
+<kw name="Close Browser" owner="DotComRobot">
+<status status="NOT RUN" start="2025-03-25T16:35:16.411350" elapsed="0.000000"/>
+</kw>
+<doc>To Verify services-related tabs.</doc>
+<status status="FAIL" start="2025-03-25T16:34:59.244489" elapsed="17.166861">No keyword with name 'Service Tab' found. Did you mean:
+    DotComRobot.Test Service Tab</status>
+</test>
+<test id="s1-t3" name="Test Success Stories Tab" line="22">
+<kw name="Open Browser" owner="DotComRobot">
+<msg time="2025-03-25T16:35:31.816738" level="INFO">Link is working</msg>
+<arg>${BROWSER_PATH}</arg>
+<arg>${BASE_URL}</arg>
+<status status="PASS" start="2025-03-25T16:35:16.411350" elapsed="15.405388"/>
+</kw>
+<kw name="Success Story Tab" owner="DotComRobot">
+<msg time="2025-03-25T16:36:15.114676" level="INFO">Success Stories Selected!!!
+Cloud services Selected!!!
+Digital Customer Experience Selected!!!
+IT Agility Selected!!!
+Operational Excellence Selected!!!
+Product Engineering Selected!!!
+Salesforce Selected!!!
+Software Intensive Networks Selected!!!</msg>
+<status status="PASS" start="2025-03-25T16:35:31.817864" elapsed="43.296812"/>
+</kw>
+<kw name="Close Browser" owner="DotComRobot">
+<status status="PASS" start="2025-03-25T16:36:15.114676" elapsed="2.622089"/>
+</kw>
+<doc>To Verify the success stories tab functionality.</doc>
+<status status="PASS" start="2025-03-25T16:35:16.411350" elapsed="61.326758"/>
+</test>
+<test id="s1-t4" name="Test Insights Tab" line="28">
+<kw name="Open Browser" owner="DotComRobot">
+<msg time="2025-03-25T16:36:31.205718" level="INFO">Link is working</msg>
+<arg>${BROWSER_PATH}</arg>
+<arg>${BASE_URL}</arg>
+<status status="PASS" start="2025-03-25T16:36:17.738675" elapsed="13.467043"/>
+</kw>
+<kw name="Insights Tab" owner="DotComRobot">
+<msg time="2025-03-25T16:37:19.366980" level="INFO">Insights Selected!!!
+Cloud Selected!!!
+Digital Customer Experience Selected!!!
+IT Agility Selected!!!
+Media &amp;amp; Entertainment Selected!!!
+Operational Excellence Selected!!!
+Product Engineering Selected!!!
+Salesforce Selected!!!
+Software Intensive Networks Selected!!!</msg>
+<status status="PASS" start="2025-03-25T16:36:31.206292" elapsed="48.160688"/>
+</kw>
+<kw name="Close Browser" owner="DotComRobot">
+<status status="PASS" start="2025-03-25T16:37:19.366980" elapsed="2.679736"/>
+</kw>
+<doc>To Verify the Insights tab functionality.</doc>
+<status status="PASS" start="2025-03-25T16:36:17.738675" elapsed="64.308041"/>
+</test>
+<test id="s1-t5" name="Test About us Tab" line="34">
+<kw name="Open Browser" owner="DotComRobot">
+<msg time="2025-03-25T16:37:50.239453" level="INFO">Link is working</msg>
+<arg>${BROWSER_PATH}</arg>
+<arg>${BASE_URL}</arg>
+<status status="PASS" start="2025-03-25T16:37:22.046716" elapsed="28.192737"/>
+</kw>
+<kw name="About Us" owner="DotComRobot">
+<msg time="2025-03-25T16:38:20.311374" level="INFO">About us Selected!!!
+About us page view Selected!!!
+About us Selected!!!
+Prodapt Redbook in about us page Selected!!!
+About us page view Selected!!!</msg>
+<msg time="2025-03-25T16:38:20.312511" level="FAIL">ElementNotInteractableException: Message: element not interactable
+  (Session info: MicrosoftEdge=134.0.3124.83)
+Stacktrace:
+	GetHandleVerifier [0x00007FF71EB0E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF71ED9B1B4+2060276]
+	(No symbol) [0x00007FF71E899405]
+	(No symbol) [0x00007FF71E8E461B]
+	(No symbol) [0x00007FF71E8D9CBE]
+	(No symbol) [0x00007FF71E90425A]
+	(No symbol) [0x00007FF71E8D964D]
+	(No symbol) [0x00007FF71E8D950D]
+	(No symbol) [0x00007FF71E904520]
+	(No symbol) [0x00007FF71E8D964D]
+	(No symbol) [0x00007FF71E921C00]
+	(No symbol) [0x00007FF71E903FC3]
+	(No symbol) [0x00007FF71E8D8B96]
+	(No symbol) [0x00007FF71E8D7E50]
+	(No symbol) [0x00007FF71E8D89C3]
+	(No symbol) [0x00007FF71E960214]
+	(No symbol) [0x00007FF71E9F06CF]
+	(No symbol) [0x00007FF71E963A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF71EE545BD+279981]
+	simdutf::get_active_implementation [0x00007FF71EA978C1+409457]
+	simdutf::get_active_implementation [0x00007FF71EA92BA4+389716]
+	simdutf::get_active_implementation [0x00007FF71EA92CE9+390041]
+	simdutf::get_active_implementation [0x00007FF71EA862E6+338326]
+	BaseThreadInitThunk [0x00007FFBBEFC259D+29]
+	RtlUserThreadStart [0x00007FFBBFA8AF38+40]
+</msg>
+<status status="FAIL" start="2025-03-25T16:37:50.241066" elapsed="30.083058">ElementNotInteractableException: Message: element not interactable
+  (Session info: MicrosoftEdge=134.0.3124.83)
+Stacktrace:
+	GetHandleVerifier [0x00007FF71EB0E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF71ED9B1B4+2060276]
+	(No symbol) [0x00007FF71E899405]
+	(No symbol) [0x00007FF71E8E461B]
+	(No symbol) [0x00007FF71E8D9CBE]
+	(No symbol) [0x00007FF71E90425A]
+	(No symbol) [0x00007FF71E8D964D]
+	(No symbol) [0x00007FF71E8D950D]
+	(No symbol) [0x00007FF71E904520]
+	(No symbol) [0x00007FF71E8D964D]
+	(No symbol) [0x00007FF71E921C00]
+	(No symbol) [0x00007FF71E903FC3]
+	(No symbol) [0x00007FF71E8D8B96]
+	(No symbol) [0x00007FF71E8D7E50]
+	(No symbol) [0x00007FF71E8D89C3]
+	(No symbol) [0x00007FF71E960214]
+	(No symbol) [0x00007FF71E9F06CF]
+	(No symbol) [0x00007FF71E963A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF71EE545BD+279981]
+	simdutf::get_active_implementation [0x00007FF71EA978C1+409457]
+	simdutf::get_active_implementation [0x00007FF71EA92BA4+389716]
+	simdutf::get_active_implementation [0x00007FF71EA92CE9+390041]
+	simdutf::get_active_implementation [0x00007FF71EA862E6+338326]
+	BaseThreadInitThunk [0x00007FFBBEFC259D+29]
+	RtlUserThreadStart [0x00007FFBBFA8AF38+40]
+</status>
+</kw>
+<kw name="Close Browser" owner="DotComRobot">
+<status status="NOT RUN" start="2025-03-25T16:38:20.324124" elapsed="0.000000"/>
+</kw>
+<doc>To Verify the Insights tab functionality.</doc>
+<status status="FAIL" start="2025-03-25T16:37:22.046716" elapsed="58.277408">ElementNotInteractableException: Message: element not interactable
+  (Session info: MicrosoftEdge=134.0.3124.83)
+Stacktrace:
+	GetHandleVerifier [0x00007FF71EB0E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF71ED9B1B4+2060276]
+	(No symbol) [0x00007FF71E899405]
+	(No symbol) [0x00007FF71E8E461B]
+	(No symbol) [0x00007FF71E8D9CBE]
+	(No symbol) [0x00007FF71E90425A]
+	(No symbol) [0x00007FF71E8D964D]
+	(No symbol) [0x00007FF71E8D950D]
+	(No symbol) [0x00007FF71E904520]
+	(No symbol) [0x00007FF71E8D964D]
+	(No symbol) [0x00007FF71E921C00]
+	(No symbol) [0x00007FF71E903FC3]
+	(No symbol) [0x00007FF71E8D8B96]
+	(No symbol) [0x00007FF71E8D7E50]
+	(No symbol) [0x00007FF71E8D89C3]
+	(No symbol) [0x00007FF71E960214]
+	(No symbol) [0x00007FF71E9F06CF]
+	(No symbol) [0x00007FF71E963A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF71EE545BD+279981]
+	simdutf::get_active_implementation [0x00007FF71EA978C1+409457]
+	simdutf::get_active_implementation [0x00007FF71EA92BA4+389716]
+	simdutf::get_active_implementation [0x00007FF71EA92CE9+390041]
+	simdutf::get_active_implementation [0x00007FF71EA862E6+338326]
+	BaseThreadInitThunk [0x00007FFBBEFC259D+29]
+	RtlUserThreadStart [0x00007FFBBFA8AF38+40]
+</status>
+</test>
+<test id="s1-t6" name="Test Contact us form" line="40">
+<kw name="Open Browser" owner="DotComRobot">
+<msg time="2025-03-25T16:38:35.171304" level="INFO">Link is working</msg>
+<arg>${BROWSER_PATH}</arg>
+<arg>${BASE_URL}</arg>
+<status status="PASS" start="2025-03-25T16:38:20.328040" elapsed="14.843264"/>
+</kw>
+<kw name="Contact Us Form" owner="DotComRobot">
+<msg time="2025-03-25T16:39:24.705885" level="INFO">Contact Us Selected!!!
+Contact form submitted</msg>
+<status status="PASS" start="2025-03-25T16:38:35.171304" elapsed="49.534581"/>
+</kw>
+<kw name="Close Browser" owner="DotComRobot">
+<status status="PASS" start="2025-03-25T16:39:24.705885" elapsed="2.692712"/>
+</kw>
+<doc>To Verify the test contact us form submission funtionality.</doc>
+<status status="PASS" start="2025-03-25T16:38:20.328040" elapsed="67.070557"/>
+</test>
+<status status="FAIL" start="2025-03-25T16:34:01.218677" elapsed="326.179920"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Dotcom" id="s1" pass="4" fail="2" skip="0">Dotcom</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

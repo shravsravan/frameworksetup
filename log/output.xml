@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.12.6 on win32)" generated="2025-04-16T11:41:57.911864" rpa="false" schemaversion="5">
+<suite id="s1" name="Dotcom" source="C:\Users\shravan.v\PycharmProjects\pythonProject1\Dotcom.robot">
+<test id="s1-t1" name="Test Navigation" line="10">
+<kw name="Open Browser" owner="DotComRobot">
+<msg time="2025-04-16T11:42:04.381024" level="FAIL">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</msg>
+<arg>${BROWSER_PATH}</arg>
+<arg>${BASE_URL}</arg>
+<status status="FAIL" start="2025-04-16T11:41:58.615689" elapsed="5.770263">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</status>
+</kw>
+<kw name="Main Nav" owner="DotComRobot">
+<status status="NOT RUN" start="2025-04-16T11:42:04.385952" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="DotComRobot">
+<status status="NOT RUN" start="2025-04-16T11:42:04.385952" elapsed="0.000000"/>
+</kw>
+<doc>To Verify navigation tabs work as expected.</doc>
+<status status="FAIL" start="2025-04-16T11:41:58.615689" elapsed="5.770263">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</status>
+</test>
+<test id="s1-t2" name="Test Services Tab" line="16">
+<kw name="Open Browser" owner="DotComRobot">
+<msg time="2025-04-16T11:42:10.665317" level="FAIL">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</msg>
+<arg>${BROWSER_PATH}</arg>
+<arg>${BASE_URL}</arg>
+<status status="FAIL" start="2025-04-16T11:42:04.385952" elapsed="6.281931">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</status>
+</kw>
+<kw name="Service Tab">
+<status status="NOT RUN" start="2025-04-16T11:42:10.667883" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="DotComRobot">
+<status status="NOT RUN" start="2025-04-16T11:42:10.667883" elapsed="0.000000"/>
+</kw>
+<doc>To Verify services-related tabs.</doc>
+<status status="FAIL" start="2025-04-16T11:42:04.385952" elapsed="6.281931">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</status>
+</test>
+<test id="s1-t3" name="Test Success Stories Tab" line="22">
+<kw name="Open Browser" owner="DotComRobot">
+<msg time="2025-04-16T11:42:17.831779" level="FAIL">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</msg>
+<arg>${BROWSER_PATH}</arg>
+<arg>${BASE_URL}</arg>
+<status status="FAIL" start="2025-04-16T11:42:10.667883" elapsed="7.169896">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</status>
+</kw>
+<kw name="Success Story Tab" owner="DotComRobot">
+<status status="NOT RUN" start="2025-04-16T11:42:17.837779" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="DotComRobot">
+<status status="NOT RUN" start="2025-04-16T11:42:17.837779" elapsed="0.000000"/>
+</kw>
+<doc>To Verify the success stories tab functionality.</doc>
+<status status="FAIL" start="2025-04-16T11:42:10.667883" elapsed="7.169896">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</status>
+</test>
+<test id="s1-t4" name="Test Insights Tab" line="28">
+<kw name="Open Browser" owner="DotComRobot">
+<msg time="2025-04-16T11:42:31.555388" level="FAIL">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</msg>
+<arg>${BROWSER_PATH}</arg>
+<arg>${BASE_URL}</arg>
+<status status="FAIL" start="2025-04-16T11:42:17.849472" elapsed="13.705916">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</status>
+</kw>
+<kw name="Insights Tab" owner="DotComRobot">
+<status status="NOT RUN" start="2025-04-16T11:42:31.555388" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="DotComRobot">
+<status status="NOT RUN" start="2025-04-16T11:42:31.555388" elapsed="0.000000"/>
+</kw>
+<doc>To Verify the Insights tab functionality.</doc>
+<status status="FAIL" start="2025-04-16T11:42:17.846055" elapsed="13.709333">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</status>
+</test>
+<test id="s1-t5" name="Test About us Tab" line="34">
+<kw name="Open Browser" owner="DotComRobot">
+<msg time="2025-04-16T11:42:36.272119" level="FAIL">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</msg>
+<arg>${BROWSER_PATH}</arg>
+<arg>${BASE_URL}</arg>
+<status status="FAIL" start="2025-04-16T11:42:31.555388" elapsed="4.719605">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</status>
+</kw>
+<kw name="About Us" owner="DotComRobot">
+<status status="NOT RUN" start="2025-04-16T11:42:36.274993" elapsed="0.000000"/>
+</kw>
+<kw name="Close Browser" owner="DotComRobot">
+<status status="NOT RUN" start="2025-04-16T11:42:36.274993" elapsed="0.000000"/>
+</kw>
+<doc>To Verify the Insights tab functionality.</doc>
+<status status="FAIL" start="2025-04-16T11:42:31.555388" elapsed="4.719605">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</status>
+</test>
+<test id="s1-t6" name="Test Contact us form" line="40">
+<kw name="Open Browser" owner="DotComRobot">
+<msg time="2025-04-16T11:42:43.454428" level="FAIL">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</msg>
+<arg>${BROWSER_PATH}</arg>
+<arg>${BASE_URL}</arg>
+<status status="FAIL" start="2025-04-16T11:42:36.274993" elapsed="7.183185">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</status>
+</kw>
+<kw name="Contact Us Form" owner="DotComRobot">
+<status status="NOT RUN" start="2025-04-16T11:42:43.458178" elapsed="0.001856"/>
+</kw>
+<kw name="Close Browser" owner="DotComRobot">
+<status status="NOT RUN" start="2025-04-16T11:42:43.460034" elapsed="0.000000"/>
+</kw>
+<doc>To Verify the test contact us form submission funtionality.</doc>
+<status status="FAIL" start="2025-04-16T11:42:36.274993" elapsed="7.185041">SessionNotCreatedException: Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
+Current browser version is 135.0.3179.73 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+	GetHandleVerifier [0x00007FF6C660E735+13397]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C689B1B4+2060276]
+	Microsoft::Applications::Events::EventProperty::empty [0x00007FF6C67F2338+1368440]
+	(No symbol) [0x00007FF6C63D5689]
+	(No symbol) [0x00007FF6C63D4B66]
+	(No symbol) [0x00007FF6C63D107B]
+	(No symbol) [0x00007FF6C63CA827]
+	(No symbol) [0x00007FF6C640FD84]
+	(No symbol) [0x00007FF6C6403FC3]
+	(No symbol) [0x00007FF6C63D8B96]
+	(No symbol) [0x00007FF6C63D7E50]
+	(No symbol) [0x00007FF6C63D89C3]
+	(No symbol) [0x00007FF6C6460214]
+	(No symbol) [0x00007FF6C64F06CF]
+	(No symbol) [0x00007FF6C6463A53]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF6C69545BD+279981]
+	simdutf::get_active_implementation [0x00007FF6C65978C1+409457]
+	simdutf::get_active_implementation [0x00007FF6C6592BA4+389716]
+	simdutf::get_active_implementation [0x00007FF6C6592CE9+390041]
+	simdutf::get_active_implementation [0x00007FF6C65862E6+338326]
+	BaseThreadInitThunk [0x00007FFC5528259D+29]
+	RtlUserThreadStart [0x00007FFC56A8AF38+40]
+</status>
+</test>
+<status status="FAIL" start="2025-04-16T11:41:57.966441" elapsed="45.496573"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="6" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="6" skip="0" id="s1" name="Dotcom">Dotcom</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2025-04-16T11:41:58.601044" level="ERROR">Error in file 'C:\Users\shravan.v\PycharmProjects\pythonProject1\Dotcom.robot' on line 3: Importing library 'SeleniumLibrary' failed: ModuleNotFoundError: No module named 'SeleniumLibrary'
+Traceback (most recent call last):
+  None
+PYTHONPATH:
+  C:\Users\shravan.v\AppData\Roaming\JetBrains\PyCharmCE2024.2\plugins\robotframework-intellij\lib\robotframework_debug_adapter
+  C:\Users\shravan.v\PycharmProjects\pythonProject1
+  C:\Users\shravan.v\AppData\Roaming\JetBrains\PyCharmCE2024.2\plugins\robotframework-intellij\lib
+  C:\Users\shravan.v\AppData\Roaming\JetBrains\PyCharmCE2024.2\plugins\robotframework-intellij\lib\robotframework_ls\vendored
+  C:\Users\shravan.v\AppData\Local\Programs\Python\Python312\python312.zip
+  C:\Users\shravan.v\AppData\Local\Programs\Python\Python312\DLLs
+  C:\Users\shravan.v\AppData\Local\Programs\Python\Python312\Lib
+  C:\Users\shravan.v\AppData\Local\Programs\Python\Python312
+  C:\Users\shravan.v\PycharmProjects\pythonProject\.venv
+  C:\Users\shravan.v\PycharmProjects\pythonProject\.venv\Lib\site-packages</msg>
+</errors>
+</robot>
